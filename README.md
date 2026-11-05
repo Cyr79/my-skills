@@ -6,6 +6,19 @@ Compact Claude Code skills. Copy a folder into `.claude/skills/`.
 |---|---|
 | [super-orchestrator](super-orchestrator/SKILL.md) | Long multi-file coding tasks: orchestrator + workers in git worktrees |
 
+## Recommended external skills (links, not copies)
+Install from source to get updates. Install only what you use: every skill description loads into context each session.
+
+| Skill | Does | Fits |
+|---|---|---|
+| [obra/superpowers](https://github.com/obra/superpowers) | Plan, test-first, systematic debugging | Dev work |
+| [anthropics/skills](https://github.com/anthropics/skills) | Official: docx, xlsx, pptx, pdf, skill-creator | Everyone |
+| [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Design rules, colors, fonts, UX checks | Sites, apps |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Avoid generic AI-looking UI | Frontend |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | ~50 skills: copy, CRO, SEO, ads, analytics | Marketing |
+
+Install: `npx skills add <owner>/<repo>` or clone into `~/.claude/skills/`.
+
 ## super-orchestrator: origin and analysis
 
 ### Source
